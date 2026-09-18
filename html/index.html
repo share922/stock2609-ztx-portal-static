@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2005YOO · 中短线投资分析 | 周度 · 月度 · 季度</title>
+  <meta name="description" content="2005YOO 个人投资分析工作室：专注中短线波段操作，周度、月度、季度多周期共振研判，为投资者提供行情分析与付费咨询服务。" />
+  <meta name="keywords" content="股票投资,中短线,波段操作,投资分析,付费咨询,周度策略,月度趋势" />
+  <meta property="og:title" content="2005YOO · 中短线投资分析" />
+  <meta property="og:description" content="以体系致胜，以纪律前行。周度·月度·季度多周期共振，专业研判与付费咨询服务。" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1b33'/%3E%3Cpath d='M10 44 L24 30 L34 38 L54 16' stroke='%23d4af37' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='54' cy='16' r='4' fill='%23e8c76a'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 顶栏行情条 -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span>中短线 · 波段操作</span><span class="tick-sep"></span>
+      <span>周度研判</span><span class="tick-sep"></span>
+      <span>月度趋势</span><span class="tick-sep"></span>
+      <span>季度布局</span><span class="tick-sep"></span>
+      <span>风险控制</span><span class="tick-sep"></span>
+      <span>纪律执行</span><span class="tick-sep"></span>
+      <span>复利思维</span><span class="tick-sep"></span>
+      <!-- 重复一份用于无缝滚动 -->
+      <span>中短线 · 波段操作</span><span class="tick-sep"></span>
+      <span>周度研判</span><span class="tick-sep"></span>
+      <span>月度趋势</span><span class="tick-sep"></span>
+      <span>季度布局</span><span class="tick-sep"></span>
+      <span>风险控制</span><span class="tick-sep"></span>
+      <span>纪律执行</span><span class="tick-sep"></span>
+      <span>复利思维</span><span class="tick-sep"></span>
+    </div>
+  </div>
+
+  <!-- 导航 -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M8 46 L24 30 L34 38 L56 14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="56" cy="14" r="4.5" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-text">2005<em>YOO</em></span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">关于我</a>
+        <a href="#strategy">交易体系</a>
+        <a href="#services">服务内容</a>
+        <a href="#pricing">付费咨询</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <a class="btn btn--ghost btn--sm nav__cta" href="#pricing">预约咨询</a>
+      <button class="nav__toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <svg class="hero__grid" viewBox="0 0 1200 800" preserveAspectRatio="none"></svg>
+        <svg class="candle" viewBox="0 0 900 520" preserveAspectRatio="none">
+          <path class="candle__path" d="M40 430 C150 400, 170 470, 260 430 C360 386, 380 300, 470 330 C560 360, 580 250, 660 270 C740 288, 760 180, 850 140" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle class="candle__dot" cx="850" cy="140" r="5"/>
+        </svg>
+        <div class="hero__glow hero__glow--1"></div>
+        <div class="hero__glow hero__glow--2"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="kicker reveal">PERSONAL INVESTMENT RESEARCH · 个人投资研究</p>
+        <h1 class="hero__title reveal">以体系致胜<span class="gold">，</span><br />以<span class="gold">纪律</span>前行</h1>
+        <p class="hero__sub reveal">
+          专注 <strong>A股 / 港股</strong> 中短线交易，<br class="only-mobile" />
+          周度 · 月度 · 季度 <strong>多周期共振</strong>研判，
+          为认真对待投资的你，提供专业分析与付费咨询服务。
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--gold" href="#pricing">预约付费咨询</a>
+          <a class="btn btn--ghost" href="#strategy">了解交易体系</a>
+        </div>
+        <div class="hero__meta reveal">
+          <span class="hero__meta-item"><i class="dot dot--up"></i>趋势研判</span>
+          <span class="hero__meta-item"><i class="dot dot--up"></i>风险优先</span>
+          <span class="hero__meta-item"><i class="dot dot--up"></i>纪律执行</span>
+        </div>
+      </div>
+
+      <!-- 数据统计带 -->
+      <div class="stats container reveal">
+        <div class="stats__item">
+          <span class="stats__num" data-count="9">0</span>
+          <span class="stats__suffix">年+</span>
+          <span class="stats__label">二级市场研究经验</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num" data-count="300">0</span>
+          <span class="stats__suffix">+</span>
+          <span class="stats__label">深度复盘标的</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num" data-count="3">0</span>
+          <span class="stats__suffix">周期</span>
+          <span class="stats__label">周 · 月 · 季共振</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__num" data-count="100">0</span>
+          <span class="stats__suffix">%</span>
+          <span class="stats__label">风控纪律执行</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">ABOUT</p>
+          <h2 class="section__title">关于 <span class="gold">2005YOO</span></h2>
+          <p class="section__desc">一名长期活跃在二级市场的中短线投资者，以可验证的体系代替情绪化交易。</p>
+        </div>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              我从多年实战中总结出一套以<strong>趋势结构 + 量价关系 + 资金情绪</strong>为核心的中短线交易体系。
+              不追逐消息、不依赖盘感，所有的进出场决策都来自可重复、可检验的规则。
+            </p>
+            <p>
+              交易是一场概率游戏，<strong>活下来、活下去、活得好</strong>比单次暴利更重要。
+              我的目标不是替你做决定，而是让你理解每一次操作背后的逻辑，
+              与你一起在周度、月度、季度的时间尺度上，建立属于自己的复利曲线。
+            </p>
+            <ul class="about__points">
+              <li><b>趋势优先</b>—— 只参与明确趋势中的机会</li>
+              <li><b>风控第一</b> —— 任何观点先讲风险，再谈收益</li>
+              <li><b>逻辑透明</b> —— 授人以渔，讲清每一笔的为什么</li>
+            </ul>
+          </div>
+
+          <div class="about__card reveal">
+            <div class="about__card-head">
+              <span class="about__badge">TRADING PHILOSOPHY</span>
+              <h3>交易理念</h3>
+            </div>
+            <div class="philosophy">
+              <div class="philosophy__row">
+                <span class="philosophy__label">周度波段</span>
+                <div class="bar"><i style="--w:82%"></i></div>
+                <span class="philosophy__val">主战场</span>
+              </div>
+              <div class="philosophy__row">
+                <span class="philosophy__label">月度趋势</span>
+                <div class="bar"><i style="--w:90%"></i></div>
+                <span class="philosophy__val">确定性</span>
+              </div>
+              <div class="philosophy__row">
+                <span class="philosophy__label">季度布局</span>
+                <div class="bar"><i style="--w:70%"></i></div>
+                <span class="philosophy__val">大方向</span>
+              </div>
+            </div>
+            <p class="about__card-foot">风险控制贯穿每个周期 —— 先保住本金，再追求收益。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 交易体系 -->
+    <section class="section section--dark" id="strategy">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">METHODOLOGY</p>
+          <h2 class="section__title">三周期共振 · 交易体系</h2>
+          <p class="section__desc">在同一框架内，用不同的时间尺度回答「方向、节奏、位置」三个问题。</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48"><path d="M6 36 L16 26 L23 31 L42 10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="42" cy="10" r="3" fill="currentColor"/></svg>
+            </div>
+            <h3 class="card__title">周度研判</h3>
+            <p class="card__sub">节奏 · 波段</p>
+            <p class="card__desc">锁定本周强势方向与关键点位，捕捉波段起涨点，规避追涨杀跌。</p>
+            <ul class="card__tags">
+              <li>量价结构</li><li>均线系统</li><li>短线资金</li>
+            </ul>
+          </article>
+
+          <article class="card card--feature reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48"><path d="M4 40 L16 24 L24 30 L44 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="44" cy="8" r="3" fill="currentColor"/></svg>
+            </div>
+            <h3 class="card__title">月度趋势</h3>
+            <p class="card__sub">主升 · 核心</p>
+            <p class="card__desc">确认月线级别趋势主线，跟踪主升行情，让利润在正确方向上奔跑。</p>
+            <ul class="card__tags">
+              <li>趋势确认</li><li>板块轮动</li><li>仓位管理</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">
+              <svg viewBox="0 0 48 48"><path d="M4 44 L18 28 L26 34 L44 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="44" cy="6" r="3" fill="currentColor"/></svg>
+            </div>
+            <h3 class="card__title">季度布局</h3>
+            <p class="card__sub">定调 · 格局</p>
+            <p class="card__desc">从宏观与产业周期出发，判断季度大方向，提前布局，赢得时间优势。</p>
+            <ul class="card__tags">
+              <li>产业周期</li><li>宏观驱动</li><li>资产配置</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="risk reveal">
+          <div class="risk__icon" aria-hidden="true">🛡</div>
+          <div>
+            <h3>风控优先，纪律至上</h3>
+            <p>任何一次入场都必须预设止损；任何一笔加仓都必须符合体系信号。宁可错过，不可做错。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 服务内容 -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">SERVICES</p>
+          <h2 class="section__title">我能为你 <span class="gold">提供什么</span></h2>
+          <p class="section__desc">从单次诊断到长期陪伴，按需选择，透明交付。</p>
+        </div>
+
+        <div class="features">
+          <div class="feature reveal">
+            <span class="feature__no">01</span>
+            <h3>行情研判与个股分析</h3>
+            <p>对大盘环境、板块机会与具体标的进行结构分析，给出方向与关键位判断。</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__no">02</span>
+            <h3>每周复盘 · 下周策略</h3>
+            <p>每周梳理市场主线、回顾策略执行，给出下周的可执行计划与风险提示。</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__no">03</span>
+            <h3>月度 · 季度趋势报告</h3>
+            <p>中周期视角下的趋势定调与布局思路，帮你把短期波动放入更大的图景。</p>
+          </div>
+          <div class="feature reveal">
+            <span class="feature__no">04</span>
+            <h3>一对一深度答疑</h3>
+            <p>针对你的持仓与疑问，逐笔拆解逻辑，帮你建立自己的交易框架。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 付费咨询 -->
+    <section class="section section--dark" id="pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">CONSULTING</p>
+          <h2 class="section__title">付费咨询 <span class="gold">方案</span></h2>
+          <p class="section__desc">按需选择，随时开始。所有方案均可通过 X 私信咨询详情。</p>
+        </div>
+
+        <div class="plans">
+          <article class="plan reveal">
+            <h3 class="plan__name">单次诊断</h3>
+            <p class="plan__sub">一次性深入分析</p>
+            <div class="plan__price"><span class="plan__currency">¥</span>299<span class="plan__per">/次</span></div>
+            <ul class="plan__list">
+              <li>指定标的深度结构分析</li>
+              <li>方向判断 + 关键位与止损位</li>
+              <li>书面结论 + 30 分钟讲解</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#contact">咨询预约</a>
+          </article>
+
+          <article class="plan plan--feature reveal">
+            <span class="plan__badge">推荐</span>
+            <h3 class="plan__name">月度陪伴</h3>
+            <p class="plan__sub">每周跟进 · 全程答疑</p>
+            <div class="plan__price"><span class="plan__currency">¥</span>1999<span class="plan__per">/月</span></div>
+            <ul class="plan__list">
+              <li>每周复盘 + 下周策略报告</li>
+              <li>月度趋势报告一份</li>
+              <li>持仓与思路一对一答疑</li>
+              <li>盘中关键节点提醒</li>
+            </ul>
+            <a class="btn btn--gold btn--block" href="#contact">咨询预约</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3 class="plan__name">季度陪跑</h3>
+            <p class="plan__sub">建立完整交易框架</p>
+            <div class="plan__price"><span class="plan__currency">¥</span>4999<span class="plan__per">/季</span></div>
+            <ul class="plan__list">
+              <li>季度大方向与布局报告</li>
+              <li>每周策略 + 月度深度复盘</li>
+              <li>系统化交易框架教学</li>
+              <li>一对一深度答疑优先通道</li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#contact">咨询预约</a>
+          </article>
+        </div>
+
+        <p class="disclaimer reveal">
+          风险提示：股市有风险，入市需谨慎。所有内容仅为个人观点与研究分享，不构成任何投资建议，过往业绩不代表未来收益。
+        </p>
+      </div>
+    </section>
+
+    <!-- 联系 -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">CONTACT</p>
+          <h2 class="section__title">与我 <span class="gold">取得联系</span></h2>
+          <p class="section__desc">合作、咨询或交流，欢迎通过 X 找到我。</p>
+        </div>
+
+        <div class="contact__box reveal">
+          <div class="contact__card">
+            <span class="contact__label">X (Twitter)</span>
+            <a class="contact__link" href="https://x.com/2005yoo" target="_blank" rel="noopener noreferrer">
+              <svg class="contact__x" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor"/>
+              </svg>
+              @2005yoo
+            </a>
+            <p class="contact__hint">添加时请备注「投资咨询」，我会尽快回复。</p>
+          </div>
+          <div class="contact__cta">
+            <h3>把专业的事，交给体系。</h3>
+            <p>我们聊一聊，看看能否帮到你。</p>
+            <a class="btn btn--gold" href="https://x.com/2005yoo" target="_blank" rel="noopener noreferrer">前往 X 私信咨询</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64"><path d="M8 46 L24 30 L34 38 L56 14" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="56" cy="14" r="4.5" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-text">2005<em>YOO</em></span>
+      </div>
+      <p class="footer__copy">© <span id="year">2026</span> 2005YOO · 中短线投资分析。投资有风险，入市需谨慎。</p>
+      <a class="footer__x" href="https://x.com/2005yoo" target="_blank" rel="noopener noreferrer">X: @2005yoo</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
